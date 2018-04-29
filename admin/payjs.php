@@ -59,7 +59,7 @@ function wxs_notify_order() {
 	}
 }
 
-function get_QRCode() {
+function wxs_get_QRCode() {
 	/**
 	 * 在线生成二维码的路径，后续可以改为本地生成
 	 * @var string
@@ -98,7 +98,7 @@ function get_QRCode() {
 			"order_no" => $order_no,
 			"status" => "UNPAY",
 			"user_id" => $current_user->ID,
-			'paid_at' => current_time('mysql'),
+			'paid_at' => '',
 		)
 	);
 	$order_id = $wpdb->insert_id;

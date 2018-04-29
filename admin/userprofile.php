@@ -1,13 +1,13 @@
 <?php
 
-add_action('profile_personal_options', 'extra_profile_fields');
+add_action('profile_personal_options', 'wxs_extra_profile_fields');
 
 /**
  * 用户详情页增加新的内容
  * @param  User $user WordPress 的 用户信息
  * @return [type]       [description]
  */
-function extra_profile_fields($user) {
+function wxs_extra_profile_fields($user) {
 	global $current_user;
 	wp_get_current_user();
 	/**
@@ -41,7 +41,7 @@ EOF;
 } else {
 			?>
 			<th scope="row">订阅状态</th>
-			<td><fieldset><img src='<?php echo get_QRCode(); ?>'></img><p>支付完成后刷新页面</p>
+			<td><fieldset><img src='<?php echo wxs_get_QRCode(); ?>'></img><p>支付完成后刷新页面</p>
 			</fieldset>
 			</td>
 			<?php
