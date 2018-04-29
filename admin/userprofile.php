@@ -35,7 +35,7 @@ EOF;
 		if (wxs_is_user_client()) {
 			?>
 			<th scope="row">订阅状态</th>
-			<td><fieldset>您已是订阅用户</fieldset>
+			<td><fieldset><strong>您已成为本站的付费包年用户</strong></fieldset>
 			</td>
 			<?php
 } else {
