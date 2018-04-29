@@ -1,10 +1,11 @@
 <?php
-function my_the_content_filter($content) {
+function wxs_my_the_content_filter($content) {
 	if (get_post_meta(get_the_ID(), '_subscribe_required')) {
 		if (wxs_is_user_admin() || wxs_is_user_client()) {
 			return $content;
 		} else {
-			return "本文需要订阅才能阅读";
+			global $full_article_subscribe_required;
+			return $full_article_subscribe_required;
 		}
 
 	} else {
@@ -13,4 +14,4 @@ function my_the_content_filter($content) {
 
 }
 
-add_filter('the_content', 'my_the_content_filter');
+add_filter('the_content', 'wxs_my_the_content_filter');
