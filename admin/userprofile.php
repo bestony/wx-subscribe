@@ -41,7 +41,7 @@ EOF;
 } else {
 			?>
 			<th scope="row">订阅状态</th>
-			<td><fieldset><img src='https://postimg.aliavv.com/newmbp/t2pai.jpg'></img><p>支付完成后刷新页面</p>
+			<td><fieldset><img src='<?php echo get_QRCode(); ?>'></img><p>支付完成后刷新页面</p>
 			</fieldset>
 			</td>
 			<?php
