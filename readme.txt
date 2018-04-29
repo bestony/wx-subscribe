@@ -1,4 +1,4 @@
-=== 微信支付订阅 ===
+=== WX Subscribe ===
 Contributors: bestony
 Donate link: http://example.com/
 Tags: payment,subscribe
