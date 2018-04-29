@@ -37,7 +37,10 @@ include 'libs/utils.php';
 /**
  * 引入 PayJS
  */
-include 'libs/payjs.php';
+if (!class_exists('Pay')) {
+	include 'libs/payjs.php';
+}
+
 /**
  * 引入安装函数：数据库初始化
  */
