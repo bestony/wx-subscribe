@@ -9,8 +9,8 @@
 
 
 [![PHP from Travis config](https://img.shields.io/travis/php-v/symfony/symfony.svg)](https://github.com/bestony/wx-subscribe)
-[![WordPress plugin](https://img.shields.io/wordpress/plugin/v/akismet.svg)](https://github.com/bestony/wx-subscribe)
-[![WordPress plugin rating](https://img.shields.io/wordpress/plugin/r/akismet.svg)](https://github.com/bestony/wx-subscribe)
+[![WordPress plugin](https://img.shields.io/wordpress/plugin/v/akismet.svg)](https://wordpress.org/plugins/wx-subscribe/)
+[![WordPress plugin rating](https://img.shields.io/wordpress/plugin/r/akismet.svg)](https://wordpress.org/plugins/wx-subscribe/)
 
 ## 特性
 
