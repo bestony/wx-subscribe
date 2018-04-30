@@ -1,6 +1,6 @@
 === 微信支付付费订阅 ===
 Contributors: bestony
-Donate link: http://example.com/
+Donate link: https://www.ixiqin.com/exceptional/
 Tags: payment,subscribe
 Requires at least: 4.6
 Tested up to: 4.9.5
@@ -18,6 +18,8 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 * 使用`[subscribe][/subscribe]`来包裹你需要隐藏的内容，这些内容就只能被付费用户所看到。
 
+使用插件前，需要前往 [Payjs](https://payjs.cn/ref/MDNXMD) 注册并开通商户（支持**个人用户注册**）
+
 == Installation ==
 
 1. 从 WordPress 后台的「插件」-「安装插件」页面，上传插件。
@@ -25,12 +27,20 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 3. 在插件配置中填写你
 
 
+
 == Frequently Asked Questions ==
 
 = 微信支付付费订阅插件 支持个人站长么？ =
 
-微信支付付费订阅采用的是支持个人用户注册的 Payjs ，所以个人用户也支持本插件。
+微信支付付费订阅采用的是支持个人用户注册的 [Payjs](https://payjs.cn/ref/MDNXMD) ，所以个人用户也支持本插件。
 
+== Screenshots ==
+
+1. 订阅文章全文隐藏
+2. 订阅文章部分隐藏
+3. 订阅文章全文隐藏设置
+4. 订阅后台订单系统
+5. 订阅文章后台配置
 
 == Changelog ==
 
