@@ -1,4 +1,4 @@
-=== WX Subscribe ===
+=== 微信支付付费订阅 ===
 Contributors: bestony
 Donate link: http://example.com/
 Tags: payment,subscribe
@@ -16,7 +16,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 微信支付订阅插件支持 WordPress 的付费阅读。站点用户支付后可以查看付费内容。
 插件支持部分内容隐藏和全文内容隐藏，并提供了短代码来快速进行内容编辑。
 
-* 使用`[subscribe][/subscribe]`来包裹你需要隐藏的内容，这些内容既能被付费用户所看到。
+* 使用`[subscribe][/subscribe]`来包裹你需要隐藏的内容，这些内容就只能被付费用户所看到。
 
 == Installation ==
 
@@ -27,19 +27,13 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Frequently Asked Questions ==
 
-= wx-subscribe 支持个人站长么？ =
+= 微信支付付费订阅插件 支持个人站长么？ =
 
-wx-subscribe 采用的是支持个人用户注册的 Payjs ，所以个人用户也支持本插件。
+微信支付付费订阅采用的是支持个人用户注册的 Payjs ，所以个人用户也支持本插件。
 
 
 == Changelog ==
 
 = 1.0 =
 * 初始化项目
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
 
