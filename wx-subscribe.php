@@ -96,6 +96,10 @@ include 'admin/userprofile.php';
 include 'admin/plugin-home.php';
 
 /**
+ * 帮助中心
+ */
+include 'admin/plugin-helpcenter.php';
+/**
  * 菜单部分
  */
 add_action('admin_menu', 'wxs_plugin_menu', 10);
@@ -120,6 +124,7 @@ function wxs_plugin_menu() {
 	add_action('load-' . $hook_suffix, 'wxs_hide_admin_notices');
 	if (wxs_assert_plugin_config()) {
 		add_submenu_page('wxs-plugin-admin', "支付订单管理", "订单管理", "manage_options", 'wxs-order-list', 'wxs_plugin_orders');
+		add_submenu_page('wxs-plugin-admin', "帮助中心", "帮助中心", "manage_options", 'wxs-help-center', 'wxs_plugin_helpcenter');
 	}
 
 }
