@@ -37,6 +37,30 @@ function wxs_plugin_helpcenter() {
 
 					</div>
 					<!-- .postbox -->
+					<div class="postbox">
+
+						<h2><span>插件使用说明</span></h2>
+
+						<div class="inside">
+							<p>WX Subscribe 目前支持两种不同的内容隐藏模式，分别是「文章全文隐藏」和「文章部分内容隐藏」。</p>
+							<h4>文章部分内容隐藏</h4>
+							<p>1. 切换为文本模式</p>
+							<p>2. 选中要隐藏的内容</p>
+							<p>3. 点击「付费阅读」按钮</p>
+							<strong>动图展示</strong>
+							<br>
+							<img src="https://postimg.aliavv.com/newmbp/diovx.gif" width="500">
+							<h4>文章全文隐藏</h4>
+							<p>1. 编写文章内容</p>
+							<p>2. 勾选「本文订阅后可读」</p>
+							<strong>动图展示</strong>
+							<br>
+							<img src="https://postimg.aliavv.com/newmbp/987au.gif" width="500">
+						</div>
+						<!-- .inside -->
+
+					</div>
+					<!-- .postbox -->
 
 				</div>
 				<!-- .meta-box-sortables .ui-sortable -->
@@ -54,8 +78,8 @@ function wxs_plugin_helpcenter() {
 						<h2><span>如何联系到我？</span></h2>
 
 						<div class="inside">
-							<p>点击下方按钮，既可通过邮件联系到我。如果你希望加入我们的微信交流群，请在邮件中附上您的微信号，我将单独加您，并将您拉到微信群内</p>
-							<p style="font-weight: bold">您有任何问题，都可以直接通过邮件与我取得联系</p>
+							<p>点击下方按钮，既可通过邮件联系到我。如果你希望加入我们的微信交流群，请在邮件中附上您的微信号，我将单独加您，并将您拉到微信群内。</p>
+							<p style="font-weight: bold">您有任何问题，都可以直接通过邮件与我取得联系。</p>
 							<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=UjA3ISZ8Jj08KxI0PSo-Mzs_fDE9Pw" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_12.png"/></a>
 
 						</div>
