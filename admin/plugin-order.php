@@ -27,7 +27,7 @@ EOF;
 
 	foreach ($data as $order) {
 		if ($order->status == 'UNPAY') {
-			$str = '<a class="button-primary" href="/wxs_cancel_order?id=' . $order->id . '" />取消订单</a>';
+			$str = '<a class="button-primary" target="_blank" href="/wxs_cancel_order?id=' . $order->id . '" />取消订单</a>';
 		} else {
 			$str = '';
 		}

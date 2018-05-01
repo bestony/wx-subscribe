@@ -28,7 +28,7 @@ function wxs_plugin_helpcenter() {
 						<h2><span>插件配置说明</span></h2>
 
 						<div class="inside">
-							<p>1. 访问 <a href="https://payjs.cn/ref/MDNXMD">Pay.js 官网</a>，进入后台。<br><img src="https://postimg.aliavv.com/newmbp/p66nx.png" width="500"></p>
+							<p>1. 访问 <a href="https://payjs.cn/ref/MDNXMD" target="_blank">Pay.js 官网</a>，进入后台。<br><img src="https://postimg.aliavv.com/newmbp/p66nx.png" width="500"></p>
 							<p>2. 在 Payjs 后台的「会员中心」栏目获取到商户ID和接口通信密钥。<br><img src="https://postimg.aliavv.com/newmbp/m0bq8.png" width="500"></p>
 							<p>3. 将配置填写在 WordPress 后台的「插件配置」页面中的对应位置。<br><img src="https://postimg.aliavv.com/newmbp/anjub.png" width="500"></p>
 							<p>4. 插件完成配置～</p>

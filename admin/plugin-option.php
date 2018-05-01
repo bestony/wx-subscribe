@@ -40,7 +40,7 @@ function wxs_merchant_id_render() {
 	}
 	?>
 	<input type='text' name='wxs-settings[merchant_id]' value='<?php echo $options['merchant_id']; ?>'>
-	<span class="description">这里的参数可以在<a href="https://payjs.cn/ref/MDNXMD">payjs.cn</a>的后台中的「会员中心」查看</span>
+	<span class="description">这里的参数可以在<a href="https://payjs.cn/ref/MDNXMD" target="_blank">payjs.cn</a>的后台中的「会员中心」查看</span>
 	<?php
 }
 function wxs_merchant_key_render() {
@@ -50,7 +50,7 @@ function wxs_merchant_key_render() {
 	}
 	?>
 	<input type='password' name='wxs-settings[merchant_key]' value='<?php echo $options['merchant_key']; ?>'>
-	<span class="description">这里的参数可以在<a href="https://payjs.cn/ref/MDNXMD">payjs.cn</a>的后台中的「会员中心」查看</span>
+	<span class="description">这里的参数可以在<a href="https://payjs.cn/ref/MDNXMD" target="_blank">payjs.cn</a>的后台中的「会员中心」查看</span>
 	<?php
 }
 function wxs_price_render() {
