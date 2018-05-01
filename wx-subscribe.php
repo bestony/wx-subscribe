@@ -1,12 +1,4 @@
 <?php
-
-/**
- * @Author: Bestony
- * @Date:   2018-04-30 06:15:54
- * @Last Modified by:   Bestony
- * @Last Modified time: 2018-05-01 10:25:30
- */
-<?php
 /*
 Plugin Name: 	WX Subscribe
 Plugin URI: 	https://www.ixiqin.com/wx-subscribe
