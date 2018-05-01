@@ -1,4 +1,12 @@
 <?php
+
+/**
+ * @Author: Bestony
+ * @Date:   2018-04-30 06:15:54
+ * @Last Modified by:   Bestony
+ * @Last Modified time: 2018-05-01 10:25:30
+ */
+<?php
 /*
 Plugin Name: 	WX Subscribe
 Plugin URI: 	https://www.ixiqin.com/wx-subscribe
@@ -145,8 +153,5 @@ register_deactivation_hook(__FILE__, 'wxs_del_roles_on_plugin_activation');
 /**
  * TODO List
  * @todo  添加 Cron ，一年后自动为用户移除角色
- * @todo  两小时过期问题
- *
- *
  *
  */
