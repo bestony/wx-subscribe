@@ -49,3 +49,6 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 = 1.0 =
 * 初始化项目
 
+= 1.1 =
+* 加入帮助中心
+
