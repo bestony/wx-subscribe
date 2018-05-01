@@ -4,7 +4,7 @@ Donate link: https://www.ixiqin.com/exceptional/
 Tags: payment,subscribe
 Requires at least: 4.6
 Tested up to: 4.9.5
-Stable tag: 1.0
+Stable tag: 1.1
 Requires PHP: 7.0.0
 License: GPLv2 
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
