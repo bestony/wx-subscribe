@@ -78,7 +78,7 @@ function wxs_get_QRCode() {
 	$result = $wpdb->get_results($sql);
 
 	if (count($result) != 0) {
-		return $base_url . $result[0]->pay_url;
+		return $result[0]->pay_url;
 		exit;
 	}
 
@@ -108,15 +108,15 @@ function wxs_get_QRCode() {
 		"Attach" => $order_id,
 		"Body" => $order_title,
 	));
-
+	
 	if ($res->return_code == 1) {
-		$code_url = $res->code_url;
+		$code_url = $res->qrcode;
 		$wpdb->update($table_name, [
 			"pay_url" => $code_url,
 			"payjs_no" => $res->payjs_order_id,
 		],
 			["id" => $order_id]);
-		return $base_url . $code_url;
+		return $code_url;
 		exit;
 	}
 }
